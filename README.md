@@ -1,4 +1,4 @@
-# Python - Key Takeaways (Resumen)
+# Python - Literals
 
 ## 1. Literals
 - Son valores fijos en el código.
