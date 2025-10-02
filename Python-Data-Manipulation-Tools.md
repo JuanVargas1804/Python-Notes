@@ -30,4 +30,16 @@
 - Ejemplo: `4 + 5`, `12 % 5`
 
 ## 6. Jerarquía de prioridades (orden de evaluación)
-1. `**` → Exponenciación (**
+1. `**` → Exponenciación (más alto)
+2. Operadores unarios `+`, `-`  
+   (ejemplo: `4 ** -1 = 0.25`)
+3. `*`, `/`, `//`, `%`
+4. `+`, `-` (binarios, menor prioridad)
+
+## 7. Paréntesis
+- Las subexpresiones entre **paréntesis se evalúan primero**.  
+- Ejemplo: `15 - 1 * (5 * (1 + 2)) = 0`
+
+## 8. Exponentiation (Exponenciación)
+- Usa **asociatividad a la derecha** (right-sided binding).  
+- Ejemplo: `2 ** 2 ** 3 = 256`
